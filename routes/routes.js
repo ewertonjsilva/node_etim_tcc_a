@@ -10,7 +10,7 @@ const MesasController = require('../controllers/mesasController');
 const PedidoProdutosController = require('../controllers/pedidoProdutosController');
 const PedidosController = require('../controllers/pedidosController');
 const ProdutosController = require('../controllers/produtosController');
-const ProdutosTipoController = require('../controllers/produtoTipoController');
+const ProdutosTipoController = require('../controllers/produtoTiposController');
 const UsuariosController = require('../controllers/usuariosController');
 
 // definição de rotas
@@ -51,13 +51,13 @@ router.get('/pedidos', PedidosController.listarPedidos);
 // excluir
 
 
-router.get('/pedidos', ProdutosController.listarProdutos); 
+router.get('/produtos', ProdutosController.listarProdutos); 
 // cadastrar
 // editar
 // excluir
 
 
-router.get('/produtostipo', ProdutosTipoController.listarProdutosTipo); 
+router.get('/produtostipo', ProdutosTipoController.listarProdutoTipos); 
 // cadastrar
 // editar
 // excluir
