@@ -52,6 +52,7 @@ router.get('/pedidos', PedidosController.listarPedidos);
 
 
 router.get('/produtos', ProdutosController.listarProdutos); 
+router.get('/produtos/:prd_id', ProdutosController.listarProdutos); 
 // cadastrar
 // editar
 // excluir
