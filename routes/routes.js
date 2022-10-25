@@ -65,6 +65,7 @@ router.get('/produtostipo', ProdutosTipoController.listarProdutoTipos);
 
 
 router.get('/usuarios', UsuariosController.listarUsuarios); 
+router.get('/usuarios/login', UsuariosController.login); 
 // cadastrar
 // editar
 // excluir
